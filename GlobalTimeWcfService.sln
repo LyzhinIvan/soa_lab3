@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeServiceInterfaces", "GlobalTimeServiceInterfaces\GlobalTimeServiceInterfaces.csproj", "{EC06D79E-AB88-4BC2-87A9-EA4F542976C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeServices", "GlobalTimeServices\GlobalTimeServices.csproj", "{4233641B-4B04-430F-AAE3-9DFFE8D70718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustTest", "JustTest\JustTest.csproj", "{E71EFA9D-7845-41FD-8C6F-5E2391F3EB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeServiceHost", "GlobalTimeServiceHost\GlobalTimeServiceHost.csproj", "{5EE556B2-2A39-4467-861C-2FC58F9C4C7D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GlobalTimeServiceIISHost", "GlobalTimeServiceIISHost\", "{C176AFAB-277E-40D9-958B-5D736E1ADC88}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{ec06d79e-ab88-4bc2-87a9-ea4f542976c3}|GlobalTimeServiceInterfaces.dll;{4233641b-4b04-430f-aae3-9dffe8d70718}|GlobalTimeServices.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57067"
+		Debug.AspNetCompiler.PhysicalPath = "GlobalTimeServiceIISHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57067\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57067"
+		Release.AspNetCompiler.PhysicalPath = "GlobalTimeServiceIISHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57067\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57067"
+		SlnRelativePath = "GlobalTimeServiceIISHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeServiceXML", "GlobalTimeServiceXML\GlobalTimeServiceXML.csproj", "{1F190369-8D58-43E2-BAEA-63543B51DA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalTimeClient", "GlobalTimeClient\GlobalTimeClient.csproj", "{E198A573-95A0-40D0-A228-2A7AECBEFF58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC06D79E-AB88-4BC2-87A9-EA4F542976C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC06D79E-AB88-4BC2-87A9-EA4F542976C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC06D79E-AB88-4BC2-87A9-EA4F542976C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC06D79E-AB88-4BC2-87A9-EA4F542976C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4233641B-4B04-430F-AAE3-9DFFE8D70718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4233641B-4B04-430F-AAE3-9DFFE8D70718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4233641B-4B04-430F-AAE3-9DFFE8D70718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4233641B-4B04-430F-AAE3-9DFFE8D70718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71EFA9D-7845-41FD-8C6F-5E2391F3EB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71EFA9D-7845-41FD-8C6F-5E2391F3EB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71EFA9D-7845-41FD-8C6F-5E2391F3EB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71EFA9D-7845-41FD-8C6F-5E2391F3EB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE556B2-2A39-4467-861C-2FC58F9C4C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE556B2-2A39-4467-861C-2FC58F9C4C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE556B2-2A39-4467-861C-2FC58F9C4C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE556B2-2A39-4467-861C-2FC58F9C4C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C176AFAB-277E-40D9-958B-5D736E1ADC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C176AFAB-277E-40D9-958B-5D736E1ADC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C176AFAB-277E-40D9-958B-5D736E1ADC88}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C176AFAB-277E-40D9-958B-5D736E1ADC88}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1F190369-8D58-43E2-BAEA-63543B51DA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F190369-8D58-43E2-BAEA-63543B51DA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F190369-8D58-43E2-BAEA-63543B51DA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F190369-8D58-43E2-BAEA-63543B51DA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E198A573-95A0-40D0-A228-2A7AECBEFF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E198A573-95A0-40D0-A228-2A7AECBEFF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E198A573-95A0-40D0-A228-2A7AECBEFF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E198A573-95A0-40D0-A228-2A7AECBEFF58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
